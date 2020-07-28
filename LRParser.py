@@ -153,7 +153,7 @@ LRprinttable.append(['   59','   ', '   ', 's60', '   ', '   ', '   ', '   ', ' 
 LRprinttable.append(['   60','r20', '   ', '   ', 'r20', '   ', '   ', '   ', '   ', '   ', 'r20', '   ', '   ', '   ', 'r20', '   ','r20', '   ', '   ', '   ', '   ', '   ', '   ', '   ', '   ', '   ', '   ', '   ', '   ', '   ', '   ', '   '])
 
 
-f = open("C:/Mahe/Desktop/Input.csv")
+f = open(".../Input.csv")#Give the path of Input.csv file
 
 state = []
 i = 0
@@ -173,7 +173,7 @@ print(*LRprinttable,sep = "\n")
 print("\n\n")
 # rules table
 
-inp = input(" Enter string ")
+inp = input("Enter string: ")
 inp += " $"
 inp = inp.split(' ')
 
